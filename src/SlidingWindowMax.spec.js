@@ -66,7 +66,7 @@ test.each([
   for (let i = 0; i < dataset.length; i++) {
     const cur = dataset[i]
     const res = expectedResults[i]
-    let max = slidingWindowMax.evaluate(cur)
+    let max = slidingWindowMax.add(cur)
     expect(max).toEqual(res)
   }
 })
@@ -93,7 +93,7 @@ test('sliding window max with big data', () => {
   for (let i = 0; i < dataset.length; i++) {
     const cur = dataset[i]
     const res = expectedResults[i]
-    let max = slidingWindowMax.evaluate(cur)
+    let max = slidingWindowMax.add(cur)
     expect(max).toEqual(res)
   }
 })

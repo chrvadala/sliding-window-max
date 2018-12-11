@@ -17,7 +17,7 @@ class SlidingWindowMax {
     this.lowerThan = (a, b) => comparator(a, b) > 0
   }
 
-  evaluate (value) {
+  add (value) {
     const cur = value
     const list = this.list
     const i = this.i
