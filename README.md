@@ -5,7 +5,7 @@ It uses a strategy that:
  - Avoids to scan all the values to calculate the max value.
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard.js-brightgreen.svg)](https://standardjs.com)
-[![Build Status](https://travis-ci.org/chrvadala/transformation-matrix.svg?branch=master)](https://travis-ci.org/chrvadala/sliding-window-max)
+[![Build Status](https://travis-ci.org/chrvadala/sliding-window-max.svg?branch=master)](https://travis-ci.org/chrvadala/sliding-window-max)
 [![Coverage Status](https://coveralls.io/repos/github/chrvadala/sliding-window-max/badge.svg?branch=master)](https://coveralls.io/github/chrvadala/sliding-window-max?branch=master)
 [![npm](https://img.shields.io/npm/v/sliding-window-max.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/sliding-window-max)
 [![Downloads](https://img.shields.io/npm/dm/sliding-window-max.svg)](https://www.npmjs.com/package/sliding-window-max)
