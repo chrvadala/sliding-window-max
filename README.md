@@ -1,8 +1,9 @@
 # sliding-window-max
-Given a stream of data this algorithm returns (for every added value) the current max value.
+Given a stream of data, this algorithm returns (for every added value) the current max value.
+
 It uses a strategy that:
  - Stores at most a number of values defined by the window size
- - Avoids to scan all the values to calculate the max value.
+ - Avoids to scan all the values to calculate the max value
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard.js-brightgreen.svg)](https://standardjs.com)
 [![Build Status](https://travis-ci.org/chrvadala/sliding-window-max.svg?branch=master)](https://travis-ci.org/chrvadala/sliding-window-max)
@@ -60,3 +61,6 @@ My requirements were a bit different. The leetcode algorithm requires that all t
 With **sliding-window-max** you can:
  - evaluate the data as soon as they are produced
  - evaluate big array using less memory
+
+ ## Contributors
+ - [chrvadala](https://github.com/chrvadala) (author)
