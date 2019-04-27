@@ -1,16 +1,17 @@
 # sliding-window-max
-Given a stream of data, this algorithm returns (for every added value) the current max value.
 
-It uses a strategy that:
- - Stores at most a number of values defined by the window size
- - Avoids to scan all the values to calculate the max value
-
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard.js-brightgreen.svg)](https://standardjs.com)
+[![chrvadala](https://img.shields.io/badge/website-chrvadala-orange.svg)](https://chrvadala.github.io)
 [![Build Status](https://travis-ci.org/chrvadala/sliding-window-max.svg?branch=master)](https://travis-ci.org/chrvadala/sliding-window-max)
 [![Coverage Status](https://coveralls.io/repos/github/chrvadala/sliding-window-max/badge.svg?branch=master)](https://coveralls.io/github/chrvadala/sliding-window-max?branch=master)
 [![npm](https://img.shields.io/npm/v/sliding-window-max.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/sliding-window-max)
 [![Downloads](https://img.shields.io/npm/dm/sliding-window-max.svg)](https://www.npmjs.com/package/sliding-window-max)
 [![Donate](https://img.shields.io/badge/donate-PayPal-green.svg)](https://www.paypal.me/chrvadala/25)
+
+Given a stream of data, this algorithm returns (for every added value) the current max value.
+
+It uses a strategy that:
+ - Stores at most a number of values defined by the window size
+ - Avoids to scan all the values to calculate the max value
 
 ## Example
 
