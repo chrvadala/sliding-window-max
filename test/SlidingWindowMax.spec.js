@@ -1,6 +1,6 @@
 /* global test, expect */
 
-const SlidingWindowMax = require('..')
+const SlidingWindowMax = require('../src/SlidingWindowMax')
 const fs = require('fs')
 const path = require('path')
 
