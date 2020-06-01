@@ -12,7 +12,7 @@ class SlidingWindowMax {
     this.list = []
     this.windowSize = windowSize
 
-    this.waitFullRange = options.hasOwnProperty('waitFullRange') ? options.waitFullRange : true
+    this.waitFullRange = 'waitFullRange' in options ? options.waitFullRange : true
     const comparator = options.comparator ? options.comparator : DEFAULT_COMPARATOR
     this.lowerThan = (a, b) => comparator(a, b) > 0
   }

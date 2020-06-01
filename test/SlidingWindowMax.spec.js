@@ -66,7 +66,7 @@ test.each([
   for (let i = 0; i < dataset.length; i++) {
     const cur = dataset[i]
     const res = expectedResults[i]
-    let max = slidingWindowMax.add(cur)
+    const max = slidingWindowMax.add(cur)
     expect(max).toEqual(res)
   }
 })
@@ -74,7 +74,7 @@ test.each([
 test('sliding window max with big data', () => {
   const windowSize = 100
 
-  let dataset = fs
+  const dataset = fs
     .readFileSync(path.join(__dirname, '__artifacts/sample-1.txt'))
     .toString()
     .trim()
@@ -93,7 +93,7 @@ test('sliding window max with big data', () => {
   for (let i = 0; i < dataset.length; i++) {
     const cur = dataset[i]
     const res = expectedResults[i]
-    let max = slidingWindowMax.add(cur)
+    const max = slidingWindowMax.add(cur)
     expect(max).toEqual(res)
   }
 })
