@@ -1,7 +1,7 @@
 # sliding-window-max
 
 [![chrvadala](https://img.shields.io/badge/website-chrvadala-orange.svg)](https://chrvadala.github.io)
-[![Build Status](https://travis-ci.org/chrvadala/sliding-window-max.svg?branch=master)](https://travis-ci.org/chrvadala/sliding-window-max)
+[![Test](https://github.com/chrvadala/sliding-window-max/workflows/Test/badge.svg)](https://github.com/chrvadala/sliding-window-max/actions)
 [![Coverage Status](https://coveralls.io/repos/github/chrvadala/sliding-window-max/badge.svg?branch=master)](https://coveralls.io/github/chrvadala/sliding-window-max?branch=master)
 [![npm](https://img.shields.io/npm/v/sliding-window-max.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/sliding-window-max)
 [![Downloads](https://img.shields.io/npm/dm/sliding-window-max.svg)](https://www.npmjs.com/package/sliding-window-max)
@@ -11,7 +11,7 @@ Given a stream of data, this algorithm returns (for every added value) the curre
 
 It uses a strategy that:
  - Stores at most a number of values defined by the window size
- - Avoids to scan all the values to calculate the max value
+ - Performs a rolling max calculation
 
 ## Example
 
@@ -62,6 +62,11 @@ My requirements were a bit different. The leetcode algorithm requires that all t
 With **sliding-window-max** you can:
  - evaluate the data as soon as they are produced
  - evaluate big array using less memory
+
+## Changelog
+- **0.x** - Beta version
+- **1.0** - First official version
+- **1.1** - Migrates to gh-workflows; Upgrades deps
 
  ## Contributors
  - [chrvadala](https://github.com/chrvadala) (author)

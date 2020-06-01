@@ -1,6 +1,6 @@
 {
   "name": "sliding-window-max",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "src/SlidingWindowMax.js",
   "repository": "https://github.com/chrvadala/sliding-window-max.git",
   "author": "chrvadala",
